@@ -1,2 +1,20 @@
-.topbar {
+.content {
+    max-width: 1000px;
+    margin-top: 20px;
 }
+
+.profile-container {
+    width: 30%;
+    max-width: 300px;
+}
+.tweet-element {
+    border-radius: 0;
+    border-top: 0px;
+    font-size: 14px;
+}
+.tweet-element:first-child {
+    border-top: 1px solid #ddd
+}
+.btn-tweet {
+    border-radius: 30px;
+  }
